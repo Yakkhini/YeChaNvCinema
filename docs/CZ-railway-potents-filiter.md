@@ -54,5 +54,7 @@ end
 
 有关文件可在下面链接中下载：
 
-- 原始数据：[data.csv](File://data.csv)
+- 原始数据：[data.csv](https://yechanv.vercel.app/data.csv)
+- 处理脚本： [process.rb](https://yechanv.vercel.app/process.rb)
+- 结果数据： [result.csv](https://yechanv.vercel.app/result.csv)
 
