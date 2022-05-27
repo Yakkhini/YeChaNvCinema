@@ -31,7 +31,8 @@ raw_data_with_id.each do |row|
   end
 end
 
-puts matrix[1] == matrix[12]
+puts matrix.length
+puts matrix[1].length
 
 CSV.open('matrix.csv', 'wb') do |csv|
   matrix.each do |row|
