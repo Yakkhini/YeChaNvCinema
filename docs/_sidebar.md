@@ -1,6 +1,9 @@
 - *开始*
     - [首页](/)
 
+- *Coding*
+    - [Go 开发环境](/coding/golang_setup)
+
 - *linux*
     - [透明代理](20211210-tproxy)
 
