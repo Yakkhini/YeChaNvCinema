@@ -51,4 +51,72 @@ go mod init <project_name>
 yay -S gopls delve staticcheck
 ```
 
-如果插件找不到这三个工具的话会提示安装。但是使用包管理器会更好一些。
+如果插件找不到这三个工具的话会提示安装，但是使用包管理器会更好一些。当然你也可以在插件配置中写入这三个工具可执行文件的目录，取决于你的习惯。
+
+Go 语言特性比较简单，所以比较容易配置。
+
+## 代码组织规范
+
+这一部分比较折磨人。首先在 Github 上有一个比较受欢迎的项目 [golang-standards/project-layout](https://github.com/golang-standards/project-layout)。这一项目目前有 32.5k 的 star，而且这一规范被普遍使用。
+
+~~唯一的槽点在于拥有这项目的组织“golang-standards”好像和 google/golang 没有任何关系，而且 golang 官方仓库使用了这一标准专门说明不准使用的 src 目录~~
+
+至于规范的详细讲解，知乎、简书包括这篇规范的中文翻译都讲很清楚了。我在这里专门讲一件事：使用 `module` 组织项目依赖后，如何在 `cmd/` 的代码文件中 import `internal` 中的 package。
+
+这是我们的项目文件结构：
+
+```bash
+❯ tree .
+.
+├── cmd
+│   └── app
+│       └── main.go
+├── go.mod
+├── internal
+│   └── reverse.go
+├── LICENSE
+└── README.md
+
+```
+
+这是 `main.go` 中的代码：
+
+```go
+package main
+
+import (
+    "fmt"
+
+    "fultocapital/internal"
+)
+
+func main() {
+    fmt.Println("Hello, World!")
+    fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
+}
+
+```
+
+这是 `reverse.go` 中的代码：
+
+```go
+// Package morestrings implements additional functions to manipulate UTF-8
+// encoded strings, beyond what is provided in the standard "strings" package.
+package morestrings
+
+// ReverseRunes returns its argument string reversed rune-wise left to right.
+func ReverseRunes(s string) string {
+    r := []rune(s)
+    for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
+        r[i], r[j] = r[j], r[i]
+    }
+    return string(r)
+}
+
+```
+
+要注意的是，`main.go` 中 import 到 internal 文件夹就好了。其实写对了以后挺好想清楚的，但是这样简单的示例任何教程里都没有明确讲清楚，国内各种博客甚至还停留在 src 的时代（点名 CSDN）。对于初学者来说，卡在这一步比较痛苦。编程最难受的不是遇到很难的问题，而是被很基础的问题卡很久。
+
+## 最后
+
+接下来就可以编程了。
