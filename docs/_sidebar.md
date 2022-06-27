@@ -5,7 +5,8 @@
     - [Go 开发环境](coding/20220611-golang_setup)
 
 - *linux*
-    - [透明代理](20211210-tproxy)
+    - [透明代理](linux/20211210-tproxy)
+    - [PipeWire](linux/20220627-pipewire.md)
 
 - *others*
     - [专利数据](CZ-railway-potents-filiter)

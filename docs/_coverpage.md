@@ -1,8 +1,8 @@
 <!-- _coverpage.md -->
 
-# Yaksis's work
+# Yaksis' work
 
-[从这里开始](#)
+[从这里开始](/?id=博客)
 
 <!-- 背景图片 -->
 
