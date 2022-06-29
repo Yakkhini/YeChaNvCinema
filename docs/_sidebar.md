@@ -7,6 +7,7 @@
 - *Linux*
     - [透明代理](linux/20211210-tproxy)
     - [PipeWire](linux/20220627-pipewire.md)
+    - [Nix](linux/20220629-nix.md)
 
 - *Others*
     - [专利数据](CZ-railway-potents-filiter)
