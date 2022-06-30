@@ -4,6 +4,9 @@
 - *Coding*
     - [Go 开发环境](coding/20220611-golang_setup)
 
+- *Crypto*
+    - [NFT 在哭泣](crypto/20220630-nft.md)
+
 - *Linux*
     - [透明代理](linux/20211210-tproxy)
     - [PipeWire](linux/20220627-pipewire.md)
