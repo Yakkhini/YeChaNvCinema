@@ -4,17 +4,17 @@
 - *Coding*
     - [Go 开发环境](coding/20220611-golang_setup)
 
+- *Computer Science*
+    - [DSA](computerSci/20220701-dsa.md)
+
 - *Crypto*
     - [NFT 在哭泣](crypto/20220630-nft.md)
+    - [区块链之死](crypto/20220701-blockchain.md)
 
 - *Linux*
     - [透明代理](linux/20211210-tproxy)
     - [PipeWire](linux/20220627-pipewire.md)
     - [Nix](linux/20220629-nix.md)
-
-- *Others*
-    - [专利数据](CZ-railway-potents-filiter)
-    - [社会网络分析](centrality/network_analysis)
 
 **Links**
 - [![Bilibili](https://raw.githubusercontent.com/Yakkhini/basic-book/main/docs/_media/logo/bilibili.svg)@人工湖粉碎漩涡](//space.bilibili.com/89698554)
