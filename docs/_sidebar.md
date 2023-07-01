@@ -7,6 +7,7 @@
 - *Computer Science*
     - [DSA](computerSci/20220701-dsa.md)
     - [zCore 2022](computerSci/20220706-zcore.md)
+    - [OSCPU](computerSci/20230701-oscpu.md)
 
 - *Crypto*
     - [NFT 在哭泣](crypto/20220630-nft.md)
