@@ -12,6 +12,10 @@
       packages = [
         pkgs.legacyPackages.x86_64-linux.nodejs
       ];
+
+      shellHook = ''
+        export PATH="$(readlink -f node_modules)/.bin:$PATH"
+      '';
     };
   };
 }
