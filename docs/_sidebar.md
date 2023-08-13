@@ -1,6 +1,9 @@
 - *开始*
     - [首页](/)
 
+- *Brain Flush*
+    - [求索之路](brainFlush/20230813-explore.md)
+
 - *Coding*
     - [Go 开发环境](coding/20220611-golang_setup)
 
