@@ -16,6 +16,3 @@
     - [透明代理](linux/20211210-tproxy)
     - [PipeWire](linux/20220627-pipewire.md)
     - [Nix](linux/20220629-nix.md)
-
-**Links**
-- [![Bilibili](https://raw.githubusercontent.com/Yakkhini/basic-book/main/docs/_media/logo/bilibili.svg)@人工湖粉碎漩涡](//space.bilibili.com/89698554)
