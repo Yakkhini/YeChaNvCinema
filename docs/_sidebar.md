@@ -18,4 +18,4 @@
     - [Nix](linux/20220629-nix.md)
 
 - ***Links***
-  - [![GitHub](logo/github-color.svg) GitHub - YAKKHINI](//github.com/Yakkhini)
+  - [![GitHub](../logo/github-color.svg) GitHub - YAKKHINI](//github.com/Yakkhini)
