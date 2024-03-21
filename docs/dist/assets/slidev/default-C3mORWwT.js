@@ -1,1 +1,0 @@
-import{o,b as t,f as s}from"../modules/vue-BkAWdxgR.js";import{b as a}from"../index-DoNEmNjy.js";const l={},n={class:"slidev-layout default"};function c(e,r){return o(),t("div",n,[s(e.$slots,"default")])}const _=a(l,[["render",c],["__file","/home/yakkhini/Documents/Code/Marp/slidev/node_modules/@slidev/client/layouts/default.vue"]]);export{_ as I};
