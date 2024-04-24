@@ -17,5 +17,9 @@
     - [PipeWire](linux/20220627-pipewire.md)
     - [Nix](linux/20220629-nix.md)
 
+- *Where am I*
+    - [放你*的 P](where/20210818-IDGAF.md)
+
+
 - ***Links***
   - [![GitHub](../logo/github-color.svg) GitHub - YAKKHINI](//github.com/Yakkhini)
