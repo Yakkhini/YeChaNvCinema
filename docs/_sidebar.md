@@ -19,6 +19,8 @@
 
 - *Where am I*
     - [放你*的 P](where/20210818-IDGAF.md)
+    - [冰箱地狱 I](where/20211115-Fridge-I.md)
+    - [冰箱地狱 II](where/20220305-Fridge-II.md)
     - [终极蝙蝠侠](where/20220411-Batman.md)
     - [Beef](where/20220427-Beef.md)
 
