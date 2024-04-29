@@ -19,6 +19,7 @@
 
 - *Where am I*
     - [放你*的 P](where/20210818-IDGAF.md)
+    - [Beef](where/20220427-Beef.md)
 
 
 - ***Links***
